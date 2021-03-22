@@ -29,7 +29,7 @@ public class Test {
 		String str = "Geeks";
 
 		
-		StringBuffer sbr = new StringBuffer(str);
+		StringBuffer sbr = new StringBuffer(str);//using string builder or string buffer
 		
 		sbr.reverse();
 		System.out.println(sbr);
